@@ -1,0 +1,52 @@
+pt_BR:
+  site_settings:
+    latest_replies_sql_enabled: "Habilitar plugin Latest Replies SQL"
+    latest_replies_sql_comments_count: "Número de comentários a exibir"
+    latest_replies_sql_polling_interval: "Intervalo de polling (ms)"
+    latest_replies_sql_show_categories: "Mostrar categorias"
+    latest_replies_sql_show_tags: "Mostrar tags"
+    latest_replies_sql_excluded_categories: "Categorias excluídas (separadas por |)"
+    latest_replies_sql_excluded_tags: "Tags excluídas (separadas por |)"
+
+  latest_replies_sql:
+    title: "Latest Replies SQL"
+    description: "Plugin para exibir últimos comentários usando queries SQL"
+    
+    admin:
+      title: "Configurações Latest Replies SQL"
+      general: "Configurações Gerais"
+      display: "Configurações de Exibição"
+      filters: "Filtros"
+      performance: "Performance"
+      
+      enabled: "Plugin habilitado"
+      comments_to_show: "Comentários a exibir"
+      polling_interval: "Intervalo de polling (ms)"
+      cache_duration: "Duração do cache (ms)"
+      show_categories: "Mostrar categorias"
+      show_tags: "Mostrar tags"
+      excluded_categories: "Categorias excluídas"
+      excluded_tags: "Tags excluídas"
+      
+      test_query: "Testar Query"
+      clear_cache: "Limpar Cache"
+      export_config: "Exportar Configuração"
+      import_config: "Importar Configuração"
+      
+      performance_test: "Teste de Performance"
+      sql_time: "Tempo SQL"
+      api_time: "Tempo API"
+      improvement: "Melhoria"
+      
+      save_success: "Configurações salvas com sucesso"
+      save_error: "Erro ao salvar configurações"
+      test_success: "Query executada com sucesso"
+      test_error: "Erro ao executar query"
+      cache_cleared: "Cache limpo com sucesso"
+
+  errors:
+    latest_replies_sql:
+      plugin_disabled: "Plugin Latest Replies SQL está desabilitado"
+      query_failed: "Falha ao executar query SQL"
+      permission_denied: "Permissão negada"
+      invalid_config: "Configuração inválida"

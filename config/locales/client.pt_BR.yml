@@ -1,0 +1,58 @@
+pt_BR:
+  js:
+    admin:
+      latest_replies_sql:
+        title: "Latest Replies SQL"
+        description: "Configurações do plugin Latest Replies SQL"
+        
+        tabs:
+          general: "Geral"
+          display: "Exibição"
+          filters: "Filtros"
+          performance: "Performance"
+        
+        settings:
+          enabled: "Plugin habilitado"
+          comments_to_show: "Número de comentários"
+          polling_interval: "Intervalo de polling (ms)"
+          cache_duration: "Duração do cache (ms)"
+          show_categories: "Mostrar categorias"
+          show_tags: "Mostrar tags"
+          
+        filters:
+          excluded_categories: "Categorias excluídas"
+          excluded_tags: "Tags excluídas"
+          add_category: "Adicionar categoria"
+          add_tag: "Adicionar tag"
+          
+        actions:
+          save: "Salvar"
+          test_query: "Testar Query"
+          clear_cache: "Limpar Cache"
+          export_config: "Exportar"
+          import_config: "Importar"
+          
+        performance:
+          test_performance: "Testar Performance"
+          sql_query_time: "Tempo Query SQL"
+          api_query_time: "Tempo API REST"
+          performance_improvement: "Melhoria de Performance"
+          results_count: "Número de resultados"
+          
+        messages:
+          save_success: "Configurações salvas!"
+          save_error: "Erro ao salvar"
+          test_success: "Query executada com sucesso!"
+          test_error: "Erro na query"
+          cache_cleared: "Cache limpo!"
+          config_exported: "Configuração exportada!"
+          config_imported: "Configuração importada!"
+
+    latest_replies:
+      title: "Últimos Comentários"
+      loading: "Carregando comentários..."
+      error: "Erro ao carregar comentários"
+      no_comments: "Nenhum comentário encontrado"
+      time_ago: "há"
+      view_profile: "Ver perfil"
+      fallback_mode: "Modo de fallback ativo"
